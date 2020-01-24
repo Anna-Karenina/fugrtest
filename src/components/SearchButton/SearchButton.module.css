@@ -1,0 +1,22 @@
+.buttonicon{
+  width: 17px;
+  color: rgba(0, 0, 0 , 0.5);
+}
+.container{
+  width: 207px !important;
+}
+.iconContainer{
+  background-color: #6ae695;
+  transition: all 0.3s ease-in-out;
+}
+.iconContainer:hover{
+  background-color: rgb(18, 73, 250);
+  transition: all 0.3s ease-in-out;
+}
+.searchInput{
+  margin-right: 1px;
+}
+.searchInput:focus:active:hover{
+  outline: none !important;
+}
+

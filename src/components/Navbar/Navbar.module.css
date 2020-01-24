@@ -1,0 +1,20 @@
+.logo__tooltip{
+  display: block;
+  position: absolute;
+  padding: 8px 12px;
+  background-color: transparent;
+  border-radius: 14px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .2px;
+  line-height: 11px;
+  top: 2px;
+  left: 36px;
+  opacity: 0;
+  color: #ffffff;
+  transition: opacity .3s ease-in-out;
+  pointer-events: none;
+}
+.__hovered{
+  opacity: 1 !important
+}
